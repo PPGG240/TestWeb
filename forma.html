@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+ 
+<head>
+    <meta charset="UTF-8">
+    <title>Formas</title>
+    <link href="css/stils.css" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/5/w3.css">
+<link rel="stylesheet" href="css/mansStils.css">
+</head>
+<body>
+    <div class="w3-top">
+  <div class="w3-bar about w3-white w3-wide w3-padding w3-card">
+    <span id="noformejums" class="w3-bar-item"><b>Mans datorikas portfolio</b></span>
+    <!-- Float links to the right. Hide them on small screens -->
+    <div class="w3-right w3-hide-small">
+         <a href="index.html#about" class="w3-bar-item w3-button">Par portfolio</a>
+         <a href="index.html#rastrgrafika" class="w3-bar-item w3-button">Rastrgrafika</a>
+      <a href="index.html#vektorgrafika" class="w3-bar-item w3-button">Vektorgrafika</a>
+      <a href="index.html#3dpuzle" class="w3-bar-item w3-button">3D puzle</a>
+      <a href="index.html#videomontaza" class="w3-bar-item w3-button">Video montāža</a>
+      <a href="index.html#teksts" class="w3-bar-item w3-button">Tekstapstrāde</a>
+      <a href="index.html#excel" class="w3-bar-item w3-button">Izklājlapas</a>
+      <a href="index.html#html" class="w3-bar-item w3-button">HTML</a>
+      <a href="dzer.html" class="w3-bar-item w3-button">Dzer</a>
+      <a href="dzerdaudz.html" class="w3-bar-item w3-button">Dzer daudz</a>
+      
+    </div>
+  </div>
+</div>
+    
+    <h1>Formas un ievadlauku piemērs</h1>
+    <form>
+        <p>Šodienas datums <input name="datums"></p>
+        <p>Ja gribi uzzināt šodienas datumu, spied pogu DATUMS 
+            <input onclick="datums.value=new Date();" name="poga" value="DATUMS" type="button">
+        </p>
+        <p>Ja gribi izdzēst datumua lodziņa saturu, spied pogu RESET
+            <input value="RESET" type="reset">
+        </p>
+    </form>
+    <form>
+        <div>1.skaitlis<input type="text" name="sk1"> </div>
+        <div>
+            <input value="X" name="reiz" onclick="rez.value=sk1.value*sk2.value" type="button">
+            <input value="/" name="dal" onclick="rez.value=sk1.value/sk2.value" type="button">
+            <input value="+" name="sask" onclick="rez.value=sk1.value+sk2.value" type="button">
+            <input value="-" name="atņ" onclick="rez.value=sk1.value-sk2.value" type="button">
+        </div>
+        <div>2.skaitlis<input type="text" name="sk2"> </div>
+        <hr>
+        <div>Rezultāts<input name="rez"> </div>
+        <p>Ja gribi izdzēst skaitļu lodziņa saturu, spied pogu RESET
+            <input value="RESET" type="reset">
+        </p>
+    
+    </form>
+    <br><br>
+    
+</body>
+</html>

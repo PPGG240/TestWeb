@@ -5,13 +5,14 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="stylesheet" href="https://www.w3schools.com/w3css/5/w3.css">
+<link rel="stylesheet" href="css/mansStils.css">
 </head>
 <body>
 
 <!-- Navbar (sit on top) -->
 <div class="w3-top">
-  <div class="w3-bar w3-white w3-wide w3-padding w3-card">
-    <a href="#home" class="w3-bar-item w3-button"><b>Mans datorikas portfolio</b></a>
+  <div class="w3-bar about w3-white w3-wide w3-padding w3-card">
+    <span id="noformejums" class="w3-bar-item"><b>Mans datorikas portfolio</b></span>
     <!-- Float links to the right. Hide them on small screens -->
     <div class="w3-right w3-hide-small">
          <a href="#about" class="w3-bar-item w3-button">Par portfolio</a>
@@ -23,17 +24,22 @@
       <a href="#excel" class="w3-bar-item w3-button">Izklājlapas</a>
       <a href="#html" class="w3-bar-item w3-button">HTML</a>
       <a href="forma.html" class="w3-bar-item w3-button">Formas</a>
+      <a href="dzer.html" class="w3-bar-item w3-button">Dzer</a>
+      <a href="dzerdaudz.html" class="w3-bar-item w3-button">Dzer daudz</a>
+      <a href="otrais.html" class="w3-bar-item w3-button">Otrais</a>
+      
     </div>
   </div>
 </div>
 
-<!-- Header -->
+<!-- Header 
 <header class="w3-display-container w3-content w3-wide" style="max-width:1500px;" id="home">
   <img class="w3-image" src="/w3images/architect.jpg" alt="Architecture" width="1500" height="800">
   <div class="w3-display-middle w3-margin-top w3-center">
     <h1 class="w3-xxlarge w3-text-white"><span class="w3-padding w3-black w3-opacity-min"><b>BR</b></span> <span class="w3-hide-small w3-text-light-grey">Architects</span></h1>
   </div>
 </header>
+-->
 <!-- About Section -->
   <div class="w3-container w3-padding-32" id="about">
     <h3 class="w3-border-bottom w3-border-light-grey w3-padding-16">Par portfolio</h3>
@@ -85,18 +91,35 @@
         <img src="/w3images/house4.jpg" alt="House" style="width:99%">
       </div>
     </div>
-  
+  <div class="w3-col l3 m6 w3-margin-bottom">
+      <div class="w3-display-container">
+        <div class="w3-display-topleft w3-black w3-padding">Formas</div>
+        <img src="/w3images/house2.jpg" alt="House" style="width:100%">
+      </div>
+    </div>
+      <div class="w3-col l3 m6 w3-margin-bottom">
+      <div class="w3-display-container">
+        <div class="w3-display-topleft w3-black w3-padding">Dzer</div>
+        <img src="/w3images/house2.jpg" alt="House" style="width:100%">
+      </div>
+    </div>
+      <div class="w3-col l3 m6 w3-margin-bottom">
+      <div class="w3-display-container">
+        <div class="w3-display-topleft w3-black w3-padding">Dzer daudz</div>
+        <img src="/w3images/house2.jpg" alt="House" style="width:100%">
+      </div>
+    </div>
 <!-- Rastrgrafika content -->
+
  <div class="w3-container w3-padding-32" id="rastrgrafika">
-    <h3 class="w3-border-bottom w3-border-light-grey w3-padding-16">Rastrgrafika</h3>
+    <h3 class="w3-border-bottom w3-border-light-grey izcelts w3-padding-16">Rastrgrafika</h>
   </div>
 
   <div class="w3-row-padding w3-grayscale">
     <div class="w3-col l3 m6 w3-margin-bottom">
-      <img src="images/maja.png" height="150", width="190">
-      <h3>GIMP</h3>
-      <p class="w3-opacity">CEO & Founder</p>
-      <p>Izmantojot aplikāciju
+        <img src="images/ergonomiskdarbarezims_PatricijaGailite10g.gif" height="150",width="190">
+      <h3 class="izcelts">GIMP</h3>
+      <p class="izcelts">Izmantojot aplikāciju
             Gimp mēs atjaunojām 
             zināšanas par 
             zīmējumu veidošanu un attēlu rediģēšanu,
@@ -104,23 +127,22 @@
             zināšanas par animāciju veidošanu.</p>
     </div>
     <div class="w3-col l3 m6 w3-margin-bottom">
-      <img src="images/ergonomiskdarbarezims_PatricijaGailite10g.gif" height="150",width="190">
+      
      
   </div>
-  
+ 
 
   <!-- Vektorgrafika Section -->
   <div class="w3-container w3-padding-32" id="vektorgrafika">
-    <h3 class="w3-border-bottom w3-border-light-grey w3-padding-16">Vektorgrafika</h3>
+    <h4 class="w3-border-bottom izcelts w3-border-light-grey w3-padding-16">Vektorgrafika</h4>
   
   </div>
 
   <div class="w3-row-padding w3-grayscale">
     <div class="w3-col l3 m6 w3-margin-bottom">
      <img src="images/logo.pg_2025.png" height="150",width="190">
-      <h3>InkScape</h3>
-      <p class="w3-opacity">CEO & Founder</p>
-      <p>Izmantojot aplikāciju Inkscape
+      <h3 class="izcelts">InkScape</h3>
+      <p class="izcelts">Izmantojot aplikāciju Inkscape
             mēs nostiprinājām un papildinājām
             zināšanas par attēlu veidošanu,
             veidojot logo.</p>
@@ -130,174 +152,121 @@
 
   <!-- 3D Puzle Section -->
   <div class="w3-container w3-padding-32" id="3dpuzle">
-    <h3 class="w3-border-bottom w3-border-light-grey w3-padding-16">Contact</h3>
-    <p>Lets get in touch and talk about your next project.</p>
-    <form action="/action_page.php" target="_blank">
-      <input class="w3-input w3-border" type="text" placeholder="Name" required name="Name">
-      <input class="w3-input w3-section w3-border" type="text" placeholder="Email" required name="Email">
-      <input class="w3-input w3-section w3-border" type="text" placeholder="Subject" required name="Subject">
-      <input class="w3-input w3-section w3-border" type="text" placeholder="Comment" required name="Comment">
-      <button class="w3-button w3-black w3-section" type="submit">
-        <i class="fa fa-paper-plane"></i> SEND MESSAGE
-      </button>
-    </form>
+    <h4 class="w3-border-bottom izcelts w3-border-light-grey w3-padding-16">3D Puzle</h4>
+  
+  </div>
+
+  <div class="w3-row-padding w3-grayscale">
+    <div class="w3-col l3 m6 w3-margin-bottom">
+     <img src="images/Screenshot (3).png" height="150",width="190">
+      <h3 class="izcelts"> Tinkercad</h3>
+      <p class="izcelts">Izmantojot interneta vietni 
+         Tinkercad, no Inkscape izveidotajiem
+         logo, sastrādājoties grupās un 
+         izvēloties grupas labāko logo,
+         izveidojām 3D puzli, kuba formātā.
+         Vēlāk puzle tika izprintēta un savienota.</p> 
+    </div>
+   
   </div>
   <!--Video Section-->
    <div class="w3-container w3-padding-32" id="videomontaza">
-    <h3 class="w3-border-bottom w3-border-light-grey w3-padding-16">About</h3>
-    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Excepteur sint
-      occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
-      laboris nisi ut aliquip ex ea commodo consequat.
-    </p>
+    <h4 class="w3-border-bottom izcelts w3-border-light-grey w3-padding-16">Video montāža</h4>
+  
   </div>
 
   <div class="w3-row-padding w3-grayscale">
     <div class="w3-col l3 m6 w3-margin-bottom">
-      <img src="/w3images/team2.jpg" alt="John" style="width:100%">
-      <h3>John Doe</h3>
-      <p class="w3-opacity">CEO & Founder</p>
-      <p>Phasellus eget enim eu lectus faucibus vestibulum. Suspendisse sodales pellentesque elementum.</p>
-      <p><button class="w3-button w3-light-grey w3-block">Contact</button></p>
+      <video controls="controls" src="images/Videomontaza.mp4" height="300", width="380"></video>
+      <h3 class="izcelts">  Coolcut</h3>
+      <p class="izcelts">Pabeidzot, savu 3D puzli un
+        izvēloties video montāžas aplikāciju 
+        pēc paša gribas,
+        mums bija jāizveido neliela
+        reklāma paveiktajam darbam.</p> 
     </div>
-    <div class="w3-col l3 m6 w3-margin-bottom">
-      <img src="/w3images/team1.jpg" alt="Jane" style="width:100%">
-      <h3>Jane Doe</h3>
-      <p class="w3-opacity">Architect</p>
-      <p>Phasellus eget enim eu lectus faucibus vestibulum. Suspendisse sodales pellentesque elementum.</p>
-      <p><button class="w3-button w3-light-grey w3-block">Contact</button></p>
-    </div>
-    <div class="w3-col l3 m6 w3-margin-bottom">
-      <img src="/w3images/team3.jpg" alt="Mike" style="width:100%">
-      <h3>Mike Ross</h3>
-      <p class="w3-opacity">Architect</p>
-      <p>Phasellus eget enim eu lectus faucibus vestibulum. Suspendisse sodales pellentesque elementum.</p>
-      <p><button class="w3-button w3-light-grey w3-block">Contact</button></p>
-    </div>
-    <div class="w3-col l3 m6 w3-margin-bottom">
-      <img src="/w3images/team4.jpg" alt="Dan" style="width:100%">
-      <h3>Dan Star</h3>
-      <p class="w3-opacity">Architect</p>
-      <p>Phasellus eget enim eu lectus faucibus vestibulum. Suspendisse sodales pellentesque elementum.</p>
-      <p><button class="w3-button w3-light-grey w3-block">Contact</button></p>
-    </div>
+   
   </div>
+      
 <!--Text Section-->
  <div class="w3-container w3-padding-32" id="teksts">
-    <h3 class="w3-border-bottom w3-border-light-grey w3-padding-16">About</h3>
-    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Excepteur sint
-      occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
-      laboris nisi ut aliquip ex ea commodo consequat.
-    </p>
+    <h4 class="w3-border-bottom izcelts w3-border-light-grey w3-padding-16">Tekstapstrāde</h4>
+  
   </div>
 
   <div class="w3-row-padding w3-grayscale">
     <div class="w3-col l3 m6 w3-margin-bottom">
-      <img src="/w3images/team2.jpg" alt="John" style="width:100%">
-      <h3>John Doe</h3>
-      <p class="w3-opacity">CEO & Founder</p>
-      <p>Phasellus eget enim eu lectus faucibus vestibulum. Suspendisse sodales pellentesque elementum.</p>
-      <p><button class="w3-button w3-light-grey w3-block">Contact</button></p>
+     
+      <h3 class="izcelts"> Word</h3>
+      <p class="izcelts"> Izmantojot Word mēs atjaunojām savas 
+            zināšanas par teksta apstrād:noformēšanu
+            , rakstīšanu. Iepazinām arī funkciju,
+            kuru izmantojot var izveidot lielapmēra 
+            vēstuļu sūtīšanai automātiskas vēstules.</p> 
+       <br>
+       <p class="izcelts"> Vienu no mācību gaitā 
+           pildītajiem uzdevumiem var apskatīt
+           zemāk esošajā saitē (uz tās uzspiežot,
+           tā automātiski lejupielādējas):
+           
+            <br>
+            <br>
+            <a href="images/DP_labots.docx" target="_blank" class="darba-apskats">Veiktā darba apskats</a>
+       </p>
     </div>
-    <div class="w3-col l3 m6 w3-margin-bottom">
-      <img src="/w3images/team1.jpg" alt="Jane" style="width:100%">
-      <h3>Jane Doe</h3>
-      <p class="w3-opacity">Architect</p>
-      <p>Phasellus eget enim eu lectus faucibus vestibulum. Suspendisse sodales pellentesque elementum.</p>
-      <p><button class="w3-button w3-light-grey w3-block">Contact</button></p>
-    </div>
-    <div class="w3-col l3 m6 w3-margin-bottom">
-      <img src="/w3images/team3.jpg" alt="Mike" style="width:100%">
-      <h3>Mike Ross</h3>
-      <p class="w3-opacity">Architect</p>
-      <p>Phasellus eget enim eu lectus faucibus vestibulum. Suspendisse sodales pellentesque elementum.</p>
-      <p><button class="w3-button w3-light-grey w3-block">Contact</button></p>
-    </div>
-    <div class="w3-col l3 m6 w3-margin-bottom">
-      <img src="/w3images/team4.jpg" alt="Dan" style="width:100%">
-      <h3>Dan Star</h3>
-      <p class="w3-opacity">Architect</p>
-      <p>Phasellus eget enim eu lectus faucibus vestibulum. Suspendisse sodales pellentesque elementum.</p>
-      <p><button class="w3-button w3-light-grey w3-block">Contact</button></p>
-    </div>
+   
   </div>
+    
 <!--Excel Section-->
- <div class="w3-container w3-padding-32" id="excel">
-    <h3 class="w3-border-bottom w3-border-light-grey w3-padding-16">About</h3>
-    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Excepteur sint
-      occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
-      laboris nisi ut aliquip ex ea commodo consequat.
-    </p>
+  <div class="w3-container w3-padding-32" id="excel">
+   <h4 class="w3-border-bottom izcelts w3-border-light-grey w3-padding-16">Izklājlapas</h4>
+  
   </div>
 
   <div class="w3-row-padding w3-grayscale">
     <div class="w3-col l3 m6 w3-margin-bottom">
-      <img src="/w3images/team2.jpg" alt="John" style="width:100%">
-      <h3>John Doe</h3>
-      <p class="w3-opacity">CEO & Founder</p>
-      <p>Phasellus eget enim eu lectus faucibus vestibulum. Suspendisse sodales pellentesque elementum.</p>
-      <p><button class="w3-button w3-light-grey w3-block">Contact</button></p>
+      <h3 class="izcelts">  Excel</h3>
+      <p class="izcelts">
+        Izmantojot Excel mēs atjaunojām zināšanas par 
+        masveida datu apkopošanu un dažādu funkciju
+        izmantošanu,lai atvieglotu datu apstrādi, kā 
+        arī, lai apstrādātie dati būtu vienkārši
+        pārskatāmi un saprotami.
+            <br>
+      <p class="izcelts"> Noslēguma pārbaudes darba izpildījumu, var
+            apskatīt zemāk esošajā saitē 
+            (uz tās uzspiežot, tā automātiski lejupielādējas):
+            <br>
+            <br>
+             <a href="images/Izklajlapas.xlsx" target="_blank" class="darba-apskats">Veiktā darba apskats</a>
+      </p> 
+    </p>
     </div>
-    <div class="w3-col l3 m6 w3-margin-bottom">
-      <img src="/w3images/team1.jpg" alt="Jane" style="width:100%">
-      <h3>Jane Doe</h3>
-      <p class="w3-opacity">Architect</p>
-      <p>Phasellus eget enim eu lectus faucibus vestibulum. Suspendisse sodales pellentesque elementum.</p>
-      <p><button class="w3-button w3-light-grey w3-block">Contact</button></p>
-    </div>
-    <div class="w3-col l3 m6 w3-margin-bottom">
-      <img src="/w3images/team3.jpg" alt="Mike" style="width:100%">
-      <h3>Mike Ross</h3>
-      <p class="w3-opacity">Architect</p>
-      <p>Phasellus eget enim eu lectus faucibus vestibulum. Suspendisse sodales pellentesque elementum.</p>
-      <p><button class="w3-button w3-light-grey w3-block">Contact</button></p>
-    </div>
-    <div class="w3-col l3 m6 w3-margin-bottom">
-      <img src="/w3images/team4.jpg" alt="Dan" style="width:100%">
-      <h3>Dan Star</h3>
-      <p class="w3-opacity">Architect</p>
-      <p>Phasellus eget enim eu lectus faucibus vestibulum. Suspendisse sodales pellentesque elementum.</p>
-      <p><button class="w3-button w3-light-grey w3-block">Contact</button></p>
-    </div>
+   
   </div>
 <!--HTML Section-->
  <div class="w3-container w3-padding-32" id="html">
-    <h3 class="w3-border-bottom w3-border-light-grey w3-padding-16">About</h3>
-    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Excepteur sint
-      occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
-      laboris nisi ut aliquip ex ea commodo consequat.
-    </p>
+    <h4 class="w3-border-bottom izcelts w3-border-light-grey w3-padding-16">HTML</h4>
+  
   </div>
 
   <div class="w3-row-padding w3-grayscale">
     <div class="w3-col l3 m6 w3-margin-bottom">
-      <img src="/w3images/team2.jpg" alt="John" style="width:100%">
-      <h3>John Doe</h3>
-      <p class="w3-opacity">CEO & Founder</p>
-      <p>Phasellus eget enim eu lectus faucibus vestibulum. Suspendisse sodales pellentesque elementum.</p>
-      <p><button class="w3-button w3-light-grey w3-block">Contact</button></p>
+       <img src="images/Screenshot (4).png" height="250",width="360">
+      <h3 class="izcelts">  NetBeans</h3>
+      <p class="izcelts">
+        Izmantojot aplikāciju NetBeans mēs izveidojām mājaslapu
+        , kurā apkopojām savus šī gada darbus.
+        Paralēli mājaslapas veidošanai apguvām mājaslapas 
+        veidošanas pamatprincipus, kā arī ieguvām jaunas
+        zināšanas par video un attēlu ievietošanu,
+        kā arī par mājaslapas noformēšanu.
+      </p> 
     </div>
-    <div class="w3-col l3 m6 w3-margin-bottom">
-      <img src="/w3images/team1.jpg" alt="Jane" style="width:100%">
-      <h3>Jane Doe</h3>
-      <p class="w3-opacity">Architect</p>
-      <p>Phasellus eget enim eu lectus faucibus vestibulum. Suspendisse sodales pellentesque elementum.</p>
-      <p><button class="w3-button w3-light-grey w3-block">Contact</button></p>
-    </div>
-    <div class="w3-col l3 m6 w3-margin-bottom">
-      <img src="/w3images/team3.jpg" alt="Mike" style="width:100%">
-      <h3>Mike Ross</h3>
-      <p class="w3-opacity">Architect</p>
-      <p>Phasellus eget enim eu lectus faucibus vestibulum. Suspendisse sodales pellentesque elementum.</p>
-      <p><button class="w3-button w3-light-grey w3-block">Contact</button></p>
-    </div>
-    <div class="w3-col l3 m6 w3-margin-bottom">
-      <img src="/w3images/team4.jpg" alt="Dan" style="width:100%">
-      <h3>Dan Star</h3>
-      <p class="w3-opacity">Architect</p>
-      <p>Phasellus eget enim eu lectus faucibus vestibulum. Suspendisse sodales pellentesque elementum.</p>
-      <p><button class="w3-button w3-light-grey w3-block">Contact</button></p>
-    </div>
+   
   </div>
+  
+
 <!--
 
 <div class="w3-container">

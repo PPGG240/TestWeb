@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+    <head>
+<title>Darbs</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/5/w3.css">
+<link rel="stylesheet" href="css/mansStils.css">
+
+</head>
+<body>
+    <div class="w3-top">
+  <div class="w3-bar about w3-white w3-wide w3-padding w3-card">
+    <span id="noformejums" class="w3-bar-item"><b>Mans datorikas portfolio</b></span>
+    <!-- Float links to the right. Hide them on small screens -->
+    <div class="w3-right w3-hide-small">
+         <a href="index.html#about" class="w3-bar-item w3-button">Par portfolio</a>
+         <a href="index.html#rastrgrafika" class="w3-bar-item w3-button">Rastrgrafika</a>
+      <a href="index.html#vektorgrafika" class="w3-bar-item w3-button">Vektorgrafika</a>
+      <a href="index.html#3dpuzle" class="w3-bar-item w3-button">3D puzle</a>
+      <a href="index.html#videomontaza" class="w3-bar-item w3-button">Video montāža</a>
+      <a href="index.html#teksts" class="w3-bar-item w3-button">Tekstapstrāde</a>
+      <a href="index.html#excel" class="w3-bar-item w3-button">Izklājlapas</a>
+      <a href="index.html#html" class="w3-bar-item w3-button">HTML</a>
+      <a href="forma.html" class="w3-bar-item w3-button">Formas</a>
+      <a href="dzer.html" class="w3-bar-item w3-button">Dzer</a>
+     
+      
+    </div>
+  </div>
+</div>
+<script>
+function maksa(){
+	let dz = document.getElementsByTagName('input');
+    let sum=0;
+    for(i = 0; i < dz.length-1; i++) {
+       if(dz[i].checked) sum+=Number(dz[i].value);
+    }
+    document.getElementById("maksa").innerHTML="Jāmaksā "+sum;
+ }   
+</script>
+<p class="izcelts">
+<p id="maksa"></p>
+<form>
+    <input type="checkbox" id="kafija" name="kafija" value="3.60">
+    <label for="kafija">kafija</label><br>
+    <input type="checkbox" id="sula"  name="sula" value="2.50">
+    <label for="sula">sula</label><br>
+    <input type="checkbox" id="piens"  name="piens" value="2.00">
+    <label for="piens">piens</label><br>
+    <input type="checkbox" id="kakao" name="kakao" value="3.20">
+    <label for="kakao">kakao</label><br><br>
+    <input type="button" id="poga" value="jāmaksā" onclick="maksa()">
+</form> <br><br>
+</p>
+</body>
+</html>

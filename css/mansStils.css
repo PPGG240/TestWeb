@@ -1,0 +1,42 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/ClientSide/css.css to edit this template
+*/
+/* 
+    Created on : Mar 19, 2026, 1:38:55 PM
+    Author     : pgailite2
+*/
+body {
+    padding: 10px;
+    margin-top:135px;
+    background-image: url("../images/background.png");
+    background-repeat: no-repeat;                     
+    background-attachment: fixed;                      
+    background-size: cover;                            
+    background-position: center;       
+}
+.about {
+    background-color: #4CAF50 !important; /* Zaļā krāsa */
+    color: white !important;              /* Balti burti labākai redzamībai */
+}
+.darba-apskats {
+    color: white !important;      /*teksta krāsa*/
+    border: 4px solid green;      
+    padding: 5px 10px;             
+    text-decoration: none;  
+    border-color:green !important;
+    border-radius: 5px;             
+    display: inline-block;
+    background-color:green;
+    
+    
+}
+.izcelts {
+    background-color: rgba(0, 0, 0, 0.7) !important; 
+    backdrop-filter: blur(4px);                    
+    color: white !important;
+    padding: 10px 20px !important;
+    border-radius: 4px;                             
+    font-weight: bold;
+}
+
